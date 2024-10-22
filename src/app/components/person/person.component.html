@@ -1,0 +1,68 @@
+<div class="mat-elevation-z2" style="margin: auto;">
+
+    <form [formGroup]="formPerson">
+
+        <div class="flex">
+            <mat-form-field>
+                <label> id </label>
+                <input matInput formControlName="id">
+            </mat-form-field>
+        </div>
+        
+        <div class="flex">
+            <mat-form-field>
+                <label>name</label>
+                <input matInput formControlName="name">
+            </mat-form-field>
+        </div>
+        
+        <div class="flex">
+            <mat-form-field>
+                <label>username</label>
+                <input matInput formControlName="username">
+            </mat-form-field>
+        </div>
+        
+        <div class="flex">
+            <mat-form-field>
+                <label>email</label>
+                <input matInput formControlName="email">
+            </mat-form-field>
+        </div>
+
+        <div class="flex">
+            <mat-form-field>
+                <label>address</label>
+                <input matInput formControlName="address">
+            </mat-form-field>
+        </div>
+
+        <div class="flex">
+            <mat-form-field>
+                <label>phone</label>
+                <input matInput formControlName="phone">
+            </mat-form-field>
+        </div>
+
+        <div class="flex">
+            <mat-form-field>
+                <label>website</label>
+                <input matInput formControlName="website">
+            </mat-form-field>
+        </div>
+        
+        <div class="flex">
+            <mat-form-field>
+                <label>company</label>
+                <input matInput formControlName="company">
+            </mat-form-field>
+        </div>
+        
+        <div class="flex">
+            <button mat-flat-button color="primary" (click)="save()">Guardar</button>
+            <button mat-flat-button color="warn" (click)="back()">Volver</button>
+        </div>
+
+    </form>
+
+</div>
